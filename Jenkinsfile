@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/mur-leeee/1BI23CS137_finalTest.git'
+                git branch: 'master', url: 'https://github.com/mur-leeee/1BI23CS137_finalTest.git'
             }
         }
 
